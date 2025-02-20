@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Markazi Text", serif;
+    font-size: 20px;
+    /* background-image: url(./images/bg.webp); */
+}
+body{
+    background-image: url(./images/bg.webp);
+    background-size: cover;
+
+}
+#logo{
+    width: 100px;
+}
+.cake1{
+    height: 500px;
+}
+#head{
+    margin-top: 130px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(208, 174, 142);
+    border-color: antiquewhite;
+}
+.set1{
+    padding-top: 30px;
+}
+
+.hov:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+    padding: 10px;
+    border-color: black;
+}
+.set2{
+    padding-top: 50px;
+}
+.set3{
+    padding-top: 150px;
+}
+.card1{
+    height: 350px;
+    border-radius: 20px;
+}
+#aboutus{
+    width: 500px;
+    border-radius: 20px;  
+}
+.abt{
+    padding-top: 90px;
+}
+iframe{
+    border-radius: 20px;
+}
+.icon{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.rowpa{
+    padding-bottom: 30px;
+}
+.sets{
+   font-weight: 600;
+}
+#form{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 400px;
+    width: 700px;
+}
+
+
+/* fonts */
+.deli{
+    font-family: "Euphoria Script", cursive;
+    font-weight: 600;
+    font-size: 80px;
+}
+.hdd{
+    font-family: "Borel", cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+.abt{
+    font-family: "Libre Bodoni", serif;
+  /* font-optical-sizing: auto; */
+}
+.abt1{
+    font-size: medium;
+}
+.navb{
+
+    font-family: "Dancing Script", serif;
+    font-weight: 400px;
+    font-size: 30px;
+    margin-left: 30px;
+    /* border: solid; */
+}
+.navb:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+    /* background-color: rgba(36, 36, 36, 0.5); */
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+
+
+/* footer */
+.iconcollections{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+.iconss{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    /* font-size: 2rem; */
+}
+
+footer{
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+#copywrite{
+    text-align: center;
+    font-weight: 600;
+}
